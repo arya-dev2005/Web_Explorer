@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/action.php">
+        <h1>Register Here</h1>
+        <p><big><u>Personal Details</u></big></p>
+        Enter your name:
+      <input type="text" placeholder="Full Name"><br><br>
+      <label for ="father's name">Father's name: <input type="text"placeholder="Enter name"></label><br><br>
+      <label for ="gender">Gender:<input type="radio"value ="male"name="gender"id="male">Male<input type="radio"name="gender"id="female">Female<input type="radio"value ="bilingual"name="gender"id="bilingual">Prefer not to say</label>    
+    <br><br>
+   Select your Category:
+   <select name="category"id="category">
+         <option value ="Select">--Select--</option>
+         <option value ="General">General</option>
+         <option value ="ST">ST</option>
+         <option value ="SC">SC</option>
+         <option value ="OBC-A">OBC-A</option>
+         <option value ="OBC-B">OBC-B</option>
+         <option value ="EWS">EWS</option>  
+      <br><br>       
+   </select>
+ <p><big><u>Academic Details</u></big></p>
+Select your class:
+       <input type="radio" value="Class XI" name="Class"> Class XI
+       <input type="radio" value="Class XII" name="Class"> Class XII 
+       <br><br>       
+Select your subjects:<br>
+<label for ="math">
+    <input type="checkbox" value="math" name="subject" id="101">Mathematics 
+</label><br>
+<label for ="physics">
+    <input type="checkbox" value="physics" name="subject" id="102">Physics 
+</label><br>
+  <label for ="chemistry">
+    <input type="checkbox" value="chemistry" name="subject" id="103">Chemistry
+</label><br>
+<label for ="biology">
+    <input type="checkbox" value="biology" name="subject" id="104">Biology 
+</label><br>
+<label for ="computer science">
+    <input type="checkbox" value="computer science" name="subject" id="105">Computer Science 
+</label><br>
+<label for ="Bengali">
+    <input type="checkbox" value="Bengali" name="subject" id="106">Bengali 
+</label><br>
+<label for ="English">
+    <input type="checkbox" value="English" name="subject" id="107">English 
+</label>    
+     <div><p><big><u>Address Details</u></big></p>
+     Select your city:
+     <select name="city" id="city">
+          <option value ="Select">--Select--</option>
+         <option value ="Midnapore">Midnapore</option>
+         <option value ="Kolkata">Kolkata</option>
+         <option value ="Chennai">Chennai</option>
+         <option value ="Pune">Pune</option>
+         <option value ="Bangalore">Bangalore</option>
+         <option value ="Patna">Patna</option>
+         <option value ="Mumbai">Mumbai</option>
+         <option value ="Bhubaneswar">Bhubaneswar</option>
+         <option value ="Indore">Indore</option>
+         <option value ="Hyderabad">Hyderabad</option>
+         <option value ="Port Blair">Port Blair</option>
+         <option value ="Thiruvananthapuram">Thiruvananthapuram</option>
+         <option value ="Bhopal">Bhopal</option>
+     </select><br><br>
+     Select your State:
+     <select name="state" id="state">
+          <option value ="select">--Select--</option>
+         <option value ="West Bengal">West Bengal</option>
+         <option value ="Assam">Assam</option>
+         <option value ="odisha">odisha</option>
+         <option value ="Madhya Pradesh">Madhya Pradesh</option>
+         <option value ="Maharashtra">Maharashtra</option>
+         <option value ="Andhra Pradesh">Andhra Pradesh</option>
+         <option value ="Bihar">Bihar</option>
+         <option value ="Delhi">Delhi</option>
+         <option value ="Telengana">Telengana</option>
+         <option value ="Kerala">Kerala</option>
+         <option value ="Tamil Nadu">Tamil Nadu</option>       
+     </select>
+     </div>
+     <p><b><u><big>Feedback</big></u></b></p> 
+         <textarea name="feedback" placeholder="give your feedback here"rows="5"></textarea>  <br>
+         <a href="./index.html"><img src="../button.png"width="170"alt="reload the image"/></a>
+    </form>
+</body>
+</html>
