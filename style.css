@@ -1,0 +1,57 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+details {
+  font:
+    16px "Open Sans",
+    Calibri,
+    sans-serif;
+  width: 620px;
+}
+
+details>summary {
+  padding: 4px 6px;
+  width: 15em;
+  background-color: #ddd;
+  border: none;
+  box-shadow: 3px 3px 4px black;
+  cursor: pointer;
+}
+
+details>section {
+  border-radius: 0 0 10px 10px;
+  background-color: #ddd;
+  padding: 1px 20px;
+  margin: 0;
+  box-shadow: 3px 3px 4px black;
+}
+
+details>secion>ol {
+  list-style-type: decimal;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  
+}
+
+a:hover{
+  color: blue;
+  outline: 2px solid black;
+}
+
+a:visited{
+  color: purple;
+}
+
+a:focus{
+  color: red;
+
+}
+
+details[open]>summary {
+  background-color: #ccf;
+}

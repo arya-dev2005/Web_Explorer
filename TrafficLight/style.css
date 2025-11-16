@@ -1,0 +1,22 @@
+#traffic{height: 400px;
+width: 150px;
+background: black;
+padding: 50px;
+margin: 10px;
+display: inline-block;
+border-radius: 40px;}
+.content{height: 100px;
+width: 100px;
+border: 10px double black;
+border-radius: 50%;
+margin: 10px;}
+#red{background:rgba(255,0,0,1);}
+#green{background:rgba(0,255,0,1);}
+#yellow{background:rgba(235,225,52,1);}
+#red:hover{background:rgba(255,0,0,0.5);}
+#green:hover{background:rgba(0,255,0,0.5);}
+#yellow:hover{background:rgba(235,225,52,0.5);}
+h1{text-align: center;
+text-decoration: blue dotted underline;}
+h2{text-align: center;
+text-decoration: blue dotted underline;}

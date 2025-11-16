@@ -1,0 +1,100 @@
+shape{margin: 25px;}
+#triangle-top{
+    height: 0;
+    width: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid black;
+    }
+
+#triangle-right{
+    height: 0;
+    width: 0;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 200px solid black; 
+    }   
+
+
+
+#triangle-bottom{
+    height: 0;
+    width: 0;
+    border-top: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-left: 200px solid black; 
+    }
+    
+
+#triangle-left{
+    height: 0;
+    width: 0;
+    border-left: 230px solid transparent;
+    border-right: 90px solid transparent;
+    border-bottom: 120px solid black; 
+      }
+
+#circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: black;
+    }
+
+
+#egg{
+    height: 300px;
+    width: 220px;
+    display: inline-block;
+    background: black;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    }
+
+#oval{
+    height: 180px;
+    width: 300px;
+    background: black;
+    border-radius: 50%;
+    }
+#infinity{
+    position: relative;
+    height: 500px;
+    width: 212px;
+    box-sizing: content-box;
+    margin: 50px;
+}
+#infinity:before,
+#infinity:after {
+    content: "";
+    box-sizing: content-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 60px;
+    border: 20px solid black;
+    border-radius: 50px 50px 0 50px;
+    transform: rotate(-45deg);
+}
+#infinity:after {
+    left: auto;
+    right: 0;
+    border-radius: 50px 50px 50px 0;
+    transform: rotate(45deg);
+}
+
+#yinYang{
+    height: 68px;
+    width: 96px;
+    background: #ffd215;
+    border: 2px solid black;
+    border-radius: 100%;
+    position: relative;
+}
+#yinYang::before{
+    text-align: center;
+}
+#yinYang::after{
+    color: rbg(0,0,0);
+    
+}
